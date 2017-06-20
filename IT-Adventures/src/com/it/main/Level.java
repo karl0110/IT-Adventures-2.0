@@ -42,6 +42,9 @@ public class Level {
 			case 3:
 				backgroundType=BackgroundType.Snow;
 				break;
+			case 4:
+				backgroundType=BackgroundType.Snow;
+				break;
 			
 		}
 		background=new Background(backgroundType, imageLoader);
