@@ -3,6 +3,11 @@ package com.it.main;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
+/**
+ * 
+ * @author RealTutsGML
+ *
+ */
 public class Animator {
 
 	private BufferedImage[] images;
