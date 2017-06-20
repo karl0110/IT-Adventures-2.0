@@ -2,7 +2,11 @@ package com.it.main;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
-
+/**
+ * Klasse, die die Hintergründe von dem Anfangsmenü und dem Playmenü lädt
+ * @author KarlMatt
+ *
+ */
 public class MainMenu {
 
 	private BufferedImage mainMenuBackground, playMenuBackground;
@@ -30,7 +34,10 @@ public class MainMenu {
 		}
 		
 	}
-	
+	/**
+	 * zeichnen der Bilder, wenn man im ricjtigen Gamestate ist.
+	 * @param g
+	 */
 	public void render(Graphics g) {
 		if(animatingPlay){
 			g.drawImage(mainMenuBackground,0,0,Game.WIDTH,Game.HEIGHT, null);
@@ -56,6 +63,9 @@ public class MainMenu {
 		this.animatingPlay = animatingPlay;
 	}
 	
+	/**
+	 * Animation starten, mit Anfangs-y-Wert
+	 */
 	public void startPlayAnimation(){
 		
 		y=(-1080);
