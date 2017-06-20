@@ -12,7 +12,7 @@ public class Window extends Canvas {
 	 * @author Karl, Jaime
 	 * 
 	 * Die Windowklasse der Anwendung "IT-Adventures" erstellt das Fenster, in dem das Spiel läuft und skaliert es
-	 * für die Größe und Auflösung des jeweiligen Bildschirms.
+	 * für die Größe und Auflösung des jeweiligen Bildschirms. 
 	 */
 	private static final long serialVersionUID = 1L;
 	private JFrame frame;
