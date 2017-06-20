@@ -67,7 +67,7 @@ public class Player extends LivingTileEntity{
 		
 		if(falling || jumping){ 
 			
-			velY += 0.981f; // Y-Wert des Spielers steigt immer (wird durch Kollision unterbrochen)
+				velY += 0.981f; // Y-Wert des Spielers steigt immer (wird durch Kollision unterbrochen)
 		}
 		collision(); // @see TileEntity
 		
