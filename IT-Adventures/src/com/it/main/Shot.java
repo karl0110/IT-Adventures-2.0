@@ -1,7 +1,13 @@
 package com.it.main;
 
 import java.awt.Graphics;
-
+/**
+ * 
+ * @author Filip
+ * Klasse zum erzeugen einer Schuss Animation, welches  "lebenden" Objekten (Spieler,Gegner) bei einem Treffer Schaden 
+ * zufügt und somit das Leben in der Lebensleiste verrinergt
+ *  
+ */
 public class Shot extends TileEntity {
 
 	private int range;
