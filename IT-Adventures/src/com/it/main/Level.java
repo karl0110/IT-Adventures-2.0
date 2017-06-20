@@ -10,6 +10,13 @@ package com.it.main;
  */
 import java.awt.image.BufferedImage;
 
+/**
+ * 
+ * @author KarlMatt
+ * 
+ * Die Levelklasse ist dazu da, anhand von festgelegten Farben, innerhalb von Bildern für verschiedene Level,
+ * die Blöcke sowie das Level zu laden.
+ */
 public class Level {
 
 	private BufferedImageLoader imageLoader;
