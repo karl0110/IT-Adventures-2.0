@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 
 /**
  * 
- * @author Vince
+ * @author Vincent, Karl
  *
  */
 public class Block extends TileObject{
