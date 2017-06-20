@@ -1,5 +1,11 @@
 package com.it.main;
 
+/**
+ * Dies ist die abstrakte Oberklasse aller lebenden TileEntities. Subklassen erhalten von dieser Klasse Informationen über ihre Leben und ihren Aktions-Cooldown. Zusätzlich speichert die Klasse auch eine HealthBar, welche über aller Objekte Subklassen angezeigt wird.
+ * 
+ * @author Jaime Hall, Filip Vojno
+ *
+ */
 public abstract class LivingTileEntity extends TileEntity {
 
 	protected float health;
