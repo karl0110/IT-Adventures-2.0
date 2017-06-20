@@ -4,6 +4,15 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
+/**
+ * 
+ * @author Jaime, Karl (navigator)
+ * 
+ *Dies ist die Klasse Charaktermenü der Anwendung "IT-Adventures".
+ *Hier wird ein Charakter und ein Level ausgewählt.
+ *Dazu werden Parameter für ein Bild, den ausgewählten Character (CharacterType) und das ausgewählte Level(int)
+ *sowie eine Game-Instanz benötigt.
+ */
 public class CharacterMenu {
 
 	private BufferedImage image;
