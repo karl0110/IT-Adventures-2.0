@@ -2,6 +2,12 @@ package com.it.main;
 
 import java.awt.Graphics;
 
+/**
+ * Die Objekte dieser Klasse sind Gegner, welche sich in der Spielwelt bewegen und den Spieler mithilfe von Schüssen angreifen, falls dieser sich in einem bestimmten Radius befindet. Dies wird mithilfe einer künstlichen Intelligenz erreicht.
+ * 
+ * @author Jaime Hall
+ * 
+ */
 public class Enemy extends LivingTileEntity{
 
 	private float leftPatrolCoordinate,rightPatrolCoordinate;
@@ -39,8 +45,8 @@ public class Enemy extends LivingTileEntity{
 			velY += 0.981f; // Y-Wert steigt immer (wird durch Kollision unterbrochen)
 		}	
 		
-		if(facingRight==true){
-			if(x<rightPatrolCoordinate){
+		if(facingRight==true){//Wenn der Gegner nach Rechts guckt
+			if(x<rightPatrolCoordinate){//Und er seinen Umkehrpunkt noch nicht erreicht hat
 				velX=2;
 			}
 			else{
@@ -56,10 +62,10 @@ public class Enemy extends LivingTileEntity{
 			}
 		}
 		
-		if(y-player.getY()>20 && y-player.getY() >0 || player.getY()-y>20 && player.getY()-y >0){
+		if(y-player.getY()>20 && y-player.getY() >0 || player.getY()-y>20 && player.getY()-y >0){// Falls der Spieler sich bis zu 20 Pixel nach oben/unten befindet.
 			if(cooldown==0){
-				if(x-player.getX()<400&&x-player.getX()>0){
-					handler.addObject(new Shot(x-width-TileType.Shot.width,y+height/2, imageLoader, TileType.Shot, handler, 600, 20, false, 1, 6));
+				if(x-player.getX()<400&&x-player.getX()>0){//Und der Spieler weniger als 400 Pixel weit weg ist.
+					handler.addObject(new Shot(x-width-TileType.Shot.width,y+height/2, imageLoader, TileType.Shot, handler, 600, 20, false, 1, 6));//wird ein Schuss erstellt, welcher in die Richtung des Spielers geht.
 					cooldown=60;
 				}
 				else if(player.getX()-x<400&&player.getX()-x>0){
