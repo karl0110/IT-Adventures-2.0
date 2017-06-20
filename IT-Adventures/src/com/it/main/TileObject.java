@@ -17,11 +17,5 @@ public abstract class TileObject extends Tile {
 			
 		
 	}
-	
-	/**
-	 * Es folgen alle Get-und Set Methoden, sowie die abstrakten Methoden für die Vererbung
-	 */
-	
 
-	
 }
