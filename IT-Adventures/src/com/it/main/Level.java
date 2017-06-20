@@ -1,7 +1,7 @@
 package com.it.main;
 
 /**
- * @author KarlMatt
+ * @author KarlMatt,Filip
  * Dies ist eine Klasse, die die verschiedenen Level, den Charactertyp der geladen wird den Hintergrund festlegt und
  * anderes für des Level wichtige festlegt..
  * 
@@ -12,7 +12,7 @@ import java.awt.image.BufferedImage;
 
 /**
  * 
- * @author KarlMatt
+ * @author KarlMatt.Filip
  * 
  * Die Levelklasse ist dazu da, anhand von festgelegten Farben, innerhalb von Bildern für verschiedene Level,
  * die Blöcke sowie das Level zu laden.

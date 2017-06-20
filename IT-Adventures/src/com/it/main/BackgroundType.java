@@ -1,5 +1,9 @@
 package com.it.main;
-
+/**
+ * 
+ * @author (KarlMatt), Jaime
+ * Klasse zur zuweisung diverser Grafiken.
+ */
 public enum BackgroundType {
 
 	Day(300,"/images/Day-Segment 1.png"),
