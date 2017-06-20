@@ -1,13 +1,13 @@
 package com.it.main;
 
 import java.awt.Graphics;
+
 /**
+ * Es gibt für jedes Level ein Objekt der Player Klasse. Dies ist ein Charakter welcher durch den Spieler kontrolliert wird und welcher durch Objekte der Klasse Animator animiert wird. 
  * 
  * @author Karl,Jaime,Vincent
  *
  */
-
-
 public class Player extends LivingTileEntity{
 
 	private Animator idleAnimator,rightWalkAnimator,leftWalkAnimator,rightJumpAnimator,leftJumpAnimator;
@@ -75,7 +75,7 @@ public class Player extends LivingTileEntity{
 		healthBar.reloadCoordinates(x, y);
 		
 		/**
-		 * Bewegungsanimationen des Charakters werden je nach Bewegung "abgespielt" (mehrere Bilder nacheinander)
+		 * Bewegungsanimationen des Charakters werden je nach Bewegung aktualisiert (mehrere Bilder nacheinander)
 		 */
 		
 		if(velX==0)idleAnimator.runAnimation();
@@ -111,13 +111,14 @@ public class Player extends LivingTileEntity{
 			facingRight=false;
 		}
 		
-		// @see LivingTileEntity
+		/**
+		 * @see LivingTileEntity
+		 */
 		if(cooldown>0){ 
 			cooldown--;
 		}
 	}
 	
-	// Get-und Set-Methode für die Blickrichtung des Spielers
 	public boolean isFacingRight() {
 		return facingRight;
 	}
@@ -126,12 +127,6 @@ public class Player extends LivingTileEntity{
 		this.facingRight = facingRight;
 	}
 	
-	
-
-	/**
-	 *  Vier Kollisionsrechtecke für den Spieler (Oben, Unten, Links und Rechts) werden erstellt
-	 */
-
 	@Override
 	public void leftCollisionReaction(Tile tempObject) {
 		x=tempObject.getX()+tempObject.getWidth()+1;
