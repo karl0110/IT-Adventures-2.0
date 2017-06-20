@@ -3,7 +3,13 @@ package com.it.main;
 import java.awt.Rectangle;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-
+/**
+ * 
+ * @author Jaime, Karl, Vincent
+ *
+ * Die Klasse reagiert auf Maus-Klicks, welche bei einem bestimmten Zustand des Spieles bestimmte Reaktionen hervorrufen. Vom Prinzip
+ * sind bestimmte Rechtecke festgelegt und wenn sich die Maus dort befindet und der User klickt, wird die jeweilige Aktion durchgefährt.
+ */
 public class MouseInput implements MouseListener {
 
 	private MainMenu mainMenu;
@@ -17,10 +23,12 @@ public class MouseInput implements MouseListener {
 	}
 
 	@Override
+	
+	// Methode, welche in allen unterschiedlichen Stadien des Spiels die Interaktion zwischen geklickter Maus und Oberfläche regelt
 	public void mouseClicked(MouseEvent e) {
 		int x = e.getX();
 		int y = e.getY();
-		Rectangle mouse = new Rectangle(x, y, 1, 1);
+		Rectangle mouse = new Rectangle(x, y, 1, 1); // Eigenes Rechteck der Maus zur Überprüfung von Berührungen mit anderen Rechtecken @see Zeile 34
 
 		if (Game.State == Game.STATE.MainMenu) {
 			Rectangle playButton = new Rectangle(0, Game.HEIGHT / 4, Game.WIDTH, Game.HEIGHT / 4);
@@ -110,6 +118,7 @@ public class MouseInput implements MouseListener {
 //				}
 			}
 		}
+		// Spezieller Zwischeneinschub nach Erstellung eines neuen Spiels(New Game) in welchem die Geschichte und Steuerung erklärt wird
 		else if(Game.State==Game.STATE.Story){
 			Rectangle continueButton = new Rectangle(0,0,Game.WIDTH,Game.HEIGHT);
 			if(continueButton.intersects(mouse)){
