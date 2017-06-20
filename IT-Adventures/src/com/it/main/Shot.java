@@ -60,7 +60,7 @@ public class Shot extends TileEntity {
 
 	}
 
-	public void shotReaction(Tile tempObject) {
+	private void shotReaction(Tile tempObject) {
 
 		((LivingTileEntity) tempObject).removeHealth(damage);
 		handler.removeObject(this);
