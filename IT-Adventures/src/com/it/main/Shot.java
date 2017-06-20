@@ -65,7 +65,10 @@ public class Shot extends TileEntity {
 		}
 
 	}
-
+	/**
+	** Methode, die dem Spieler,Gegner bei Kollsion Leben abhängig vom Schaden abzieht
+	*/
+	
 	private void shotReaction(Tile tempObject) {
 
 		((LivingTileEntity) tempObject).removeHealth(damage);
