@@ -1,4 +1,9 @@
 package com.it.main;
+/**
+ * 
+ * @author Filip
+ *
+ */
 
 public enum TileType {
 	
