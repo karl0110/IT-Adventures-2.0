@@ -29,6 +29,11 @@ public class CharacterMenu {
 
 	}
 
+	/**
+	 * Das Bild des Menüs wird erstellt und, wenn Jaime als Charakter angeklickt wird, wird das gekennzeichnet
+	 * 
+	 * @param g
+	 */
 	public void render(Graphics g) {
 		g.drawImage(image, 0, 0, Game.WIDTH, Game.HEIGHT, null);
 		try {
@@ -56,6 +61,10 @@ public class CharacterMenu {
 		return selectedLevel;
 	}
 
+	/**
+	 * wenn ein Level ausgewählt wird, wird das Spiel gestartet
+	 * @param selectedLevel
+	 */
 	public void setSelectedLevel(int selectedLevel) {
 		this.selectedLevel = selectedLevel;
 		game.setCharacter(selectedCharacter);
