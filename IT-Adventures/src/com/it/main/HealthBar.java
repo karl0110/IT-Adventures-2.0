@@ -3,6 +3,13 @@ package com.it.main;
 import java.awt.Color;
 import java.awt.Graphics;
 
+/**
+ * 
+ * @author Vince
+ *
+ * Klasse zum erstellen einer Lebensleiste, welches das Leben von "lebenden" Objekten (Spieler,Gegner) darstellt
+ */
+
 public class HealthBar extends TileEntity {
 
 	private float health;
@@ -16,6 +23,7 @@ public class HealthBar extends TileEntity {
 	}
 
 	@Override
+	// Anzeige der Lebensleiste
 	public void render(Graphics g) {
 		g.setColor(Color.BLACK);
 		g.drawRect((int)x, (int)y, (int)width, (int)height);
@@ -32,6 +40,7 @@ public class HealthBar extends TileEntity {
 		healthPixel=(health/Player.MAXHEALTH)*(int)width;
 	}
 	
+	// Methode, die die Lebensleiste mit der Position der Objekte bewegt
 	public void reloadCoordinates(float entityX, float entityY){
 		x=entityX;
 		y=entityY-height-5;

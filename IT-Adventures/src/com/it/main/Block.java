@@ -4,6 +4,11 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 
+/**
+ * 
+ * @author Vince
+ *
+ */
 public class Block extends TileObject{
 
 	public Block(float x,float y,BufferedImageLoader imageLoader,TileType type,BufferedImage image,Player player){
