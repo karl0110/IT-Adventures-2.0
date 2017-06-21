@@ -9,7 +9,7 @@ public class Window extends Canvas {
 
 
 	/**
-	 * @author Karl, Jaime
+	 * @author Karl Mattes, Jaime Hall, RealTutsGML
 	 * 
 	 * Die Windowklasse der Anwendung "IT-Adventures" erstellt das Fenster, in dem das Spiel läuft und skaliert es
 	 * für die Größe und Auflösung des jeweiligen Bildschirms.

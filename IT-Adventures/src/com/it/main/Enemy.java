@@ -5,7 +5,7 @@ import java.awt.Graphics;
 /**
  * Die Objekte dieser Klasse sind Gegner, welche sich in der Spielwelt bewegen und den Spieler mithilfe von Schüssen angreifen, falls dieser sich in einem bestimmten Radius befindet. Dies wird mithilfe einer künstlichen Intelligenz erreicht.
  * 
- * @author Jaime Hall
+ * @author Jaime Hall, Luke Bourke
  * 
  */
 public class Enemy extends LivingTileEntity{

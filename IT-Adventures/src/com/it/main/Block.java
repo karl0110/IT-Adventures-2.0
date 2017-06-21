@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 
 /**
  * 
- * @author Vincent, Karl
+ * @author Vincent Wiechmann, Karl Mattes
  *
  * Klasse zur Spezialisierung der Erstellung aller Blöcke im Spiel; Spezialisierung: Kollision, Aussehen.
  */

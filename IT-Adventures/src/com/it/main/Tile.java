@@ -4,6 +4,11 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 
+/**
+ * 
+ * @author Jaime Hall, Vincent Wiechmann, Karl Mattes
+ *
+ */
 public abstract class Tile {
 
 	protected float x,y,velX,velY,width,height;

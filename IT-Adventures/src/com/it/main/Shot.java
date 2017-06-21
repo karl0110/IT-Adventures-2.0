@@ -3,7 +3,7 @@ package com.it.main;
 import java.awt.Graphics;
 /**
  * 
- * @author Filip
+ * @author Filip Vojnovic
  * Klasse zum erzeugen einer Schuss Animation, welches  "lebenden" Objekten (Spieler,Gegner) bei einem Treffer Schaden 
  * zufügt und somit das Leben in der Lebensleiste verrinergt
  *  

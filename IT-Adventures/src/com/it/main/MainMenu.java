@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 /**
  * Klasse, die die Hintergründe von dem Anfangsmenü und dem Playmenü lädt
- * @author KarlMatt
+ * @author Karl Mattes, Luke Bourke
  *
  */
 public class MainMenu {

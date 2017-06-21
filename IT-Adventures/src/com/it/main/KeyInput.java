@@ -4,7 +4,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 /**
- * @author vincent.wiechmann,karl.mattes
+ * @author Vincent Wiechmann, Karl Mattes
  * 
  * Die Klasse reagiert auf Tastenschläge, welche bei einem bestimmten Zustand des Spieles bestimmte Reaktionen hervorrufen.
  */

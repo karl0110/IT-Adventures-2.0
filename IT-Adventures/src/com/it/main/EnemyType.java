@@ -1,5 +1,10 @@
 package com.it.main;
 
+/**
+ * 
+ * @author Karl Mattes, Vincent Wiechmann, Luke Bourke, Filip Vojnovic, Jaime Hall
+ *
+ */
 public enum EnemyType {
 
 	Virus(1,1,32,64);

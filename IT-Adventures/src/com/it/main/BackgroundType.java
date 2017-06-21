@@ -1,7 +1,7 @@
 package com.it.main;
 /**
  * 
- * @author (KarlMatt), Jaime
+ * @author Karl Mattes, Vincent Wiechmann, Luke Bourke, Filip Vojnovic, Jaime Hall
  * Klasse zur zuweisung diverser Grafiken.
  */
 public enum BackgroundType {

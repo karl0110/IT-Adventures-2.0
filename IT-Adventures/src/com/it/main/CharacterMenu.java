@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 
 /**
  * 
- * @author Jaime, Karl (navigator)
+ * @author Jaime Hall, Karl Mattes (Navigator)
  * 
  *Dies ist die Klasse Charaktermenü der Anwendung "IT-Adventures".
  *Hier wird ein Charakter und ein Level ausgewählt.

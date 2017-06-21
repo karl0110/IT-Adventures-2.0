@@ -2,7 +2,7 @@ package com.it.main;
 
 /**
  * 
- * @author KarlMatt,Filip
+ * @author Karl Mattes,Filip Vojnovic
  *
  *Dies ist die Cameraklasse der Anwendung "IT-Adventure
  *Die Cameraklasse sollte bewirken, dass der zu sehende Bildschirmausschnitt

@@ -1,21 +1,19 @@
 package com.it.main;
 
-/**
- * @author KarlMatt,Filip
- * Dies ist eine Klasse, die die verschiedenen Level, den Charactertyp der geladen wird den Hintergrund festlegt und
- * anderes für des Level wichtige festlegt..
- * 
- * Dazu wird geprüft, welche BufferedImages geladen werden und diese werden dann dem TileHandler hinzugefügt.
- * Außerdem wird ein neues Cameraobjekt erzeugt.
- */
 import java.awt.image.BufferedImage;
 
 /**
  * 
- * @author KarlMatt.Filip
+ * @author Karl Mattes, Filip Vojnovic
+ * 
+ *  Dies ist eine Klasse, die die verschiedenen Level, den Charactertyp der geladen wird den Hintergrund festlegt und
+ * anderes für des Level wichtige festlegt..
  * 
  * Die Levelklasse ist dazu da, anhand von festgelegten Farben, innerhalb von Bildern für verschiedene Level,
  * die Blöcke sowie das Level zu laden.
+ * 
+ * Dazu wird geprüft, welche BufferedImages geladen werden und diese werden dann dem TileHandler hinzugefügt.
+ * Außerdem wird ein neues Cameraobjekt erzeugt.
  */
 public class Level {
 

@@ -5,7 +5,7 @@ import java.awt.Graphics;
 /**
  * Es gibt für jedes Level ein Objekt der Player Klasse. Dies ist ein Charakter welcher durch den Spieler kontrolliert wird und welcher durch Objekte der Klasse Animator animiert wird. 
  * 
- * @author Karl,Jaime,Vincent
+ * @author Karl Mattes,Jaime Hall,Vincent Wiechmann
  *
  */
 public class Player extends LivingTileEntity{
@@ -69,7 +69,10 @@ public class Player extends LivingTileEntity{
 			
 				velY += 0.981f; // Y-Wert des Spielers steigt immer (wird durch Kollision unterbrochen)
 		}
-		collision(); // @see TileEntity
+		/** @see TileEntity
+		 * 
+		 */
+		collision(); 
 		
 		
 		healthBar.reloadCoordinates(x, y);

@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 
 /**
  * 
- * @author Jaime,Vincent(Navigator)
+ * @author Jaime Hall,Vincent Wiechmann(Navigator)
  *
  * Klasse zum Laden aller Grafik-Segmente für den Spielhintergrund zur Vereinfachung von dessen Erstellung
  */

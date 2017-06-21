@@ -1,7 +1,8 @@
 package com.it.main;
 /**
  * 
- * @author Filip
+ * @author Karl Mattes, Vincent Wiechmann, Luke Bourke, Filip Vojnovic, Jaime Hall
+ * 
  *
  */
 

@@ -1,7 +1,7 @@
 package com.it.main;
 
 /**
- * @author vincent wiechmann, karl mattes
+ * @author Vincent Wiechmann, Karl Mattes
  *
  */
 public abstract class TileObject extends Tile {

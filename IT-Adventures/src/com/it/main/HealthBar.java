@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 /**
  * 
- * @author Vince
+ * @author Vincent Wiechmann, Jaime Hall
  *
  * Klasse zum erstellen einer Lebensleiste, welches das Leben von "lebenden" Objekten (Spieler,Gegner) darstellt
  */

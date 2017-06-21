@@ -5,7 +5,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 /**
  * 
- * @author Jaime, Karl, Vincent
+ * @author Jaime Hall, Karl Mattes, Vincent Wiechmann
  *
  * Die Klasse reagiert auf Maus-Klicks, welche bei einem bestimmten Zustand des Spieles bestimmte Reaktionen hervorrufen. Vom Prinzip
  * sind bestimmte Rechtecke festgelegt und wenn sich die Maus dort befindet und der User klickt, wird die jeweilige Aktion durchgefährt.
